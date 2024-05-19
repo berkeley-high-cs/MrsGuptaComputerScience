@@ -11,7 +11,7 @@ public class Geometry {
 
 public double midpoint(double x1, double x2) 
 {
-  return (x1 + x2)/2.0;
+  return (x1 + x2)/2;
 }
 
 }
