@@ -8,7 +8,7 @@ public class JustStrings {
   public String insert(String first, String second, int index)
   {
     String left = first.substring(0, index);
-    String leftover = first.substring(index + second.length() );
+    String leftover = first.substring( index + second.length() );
     return left + second + leftover;
   }
 }
