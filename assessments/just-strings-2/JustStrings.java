@@ -9,6 +9,6 @@ public class JustStrings {
   {
     String left = first.substring(0, index);
     String leftover = first.substring( index + second.length() );
-    return left + second;
+    return left + second + leftover;
   }
 }
