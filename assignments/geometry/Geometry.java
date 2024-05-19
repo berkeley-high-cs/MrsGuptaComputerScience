@@ -9,5 +9,9 @@ public class Geometry {
     return side * 4;
   }
 
-  // Add more methods here ...
+public double midpoint(int x1, int x2) 
+{
+  return (x1 + x2)/2.0
+}
+
 }
