@@ -18,7 +18,7 @@ public double divide(double n, double d)
 {
   return n/d; 
 }
-public double manhattanDistance(double x1, double x2 , double y1 , double y2)
+public double manhattanDistance(double x1, double y1 , double x2 , double y2)
 {
   return Math.abs(x2-x1) + Math.abs(y2-y1);
 }
