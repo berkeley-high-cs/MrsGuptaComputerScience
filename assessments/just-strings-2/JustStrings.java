@@ -11,7 +11,7 @@ public class JustStrings {
     String left = first.substring(0, index);
     if (index + second.length() < first.length())
 
-     leftover = first.substring(index+1   );
+     leftover = first.substring(index   );
     return left + second + leftover;
   }
 }
