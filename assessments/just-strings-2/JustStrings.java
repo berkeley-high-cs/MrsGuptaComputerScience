@@ -9,7 +9,7 @@ public class JustStrings {
   {
     String leftover = "";
     String left = first.substring(0, index);
-    if (index + second.length() <= first.length())
+    if (index + second.length() < first.length())
 
      leftover = first.substring( index + second.length() );
     return left + second + leftover;
