@@ -9,7 +9,7 @@ public class Tests {
 
   public double subtract(double a, double b)
    { 
-    return Math.abs(a - b)
+    return Math.abs(a - b);
     }
 
   public double multiply(double a, double b) { return a * b; }
