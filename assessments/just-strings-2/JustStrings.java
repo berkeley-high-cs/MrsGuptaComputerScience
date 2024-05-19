@@ -7,9 +7,11 @@ public class JustStrings {
   }
   public String insert(String first, String second, int index)
   {
+    String leftover = "";
     String left = first.substring(0, index);
     if (index + second.length() < first.length)
-    String leftover = first.substring( index + second.length() );
+
+     leftover = first.substring( index + second.length() );
     return left + second + leftover;
   }
 }
