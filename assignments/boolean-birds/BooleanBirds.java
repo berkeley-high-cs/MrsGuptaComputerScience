@@ -19,7 +19,7 @@
 
 public class BooleanBirds {
 
-public boolean isFlobbyBird(boolean isRed, boolean isSpotted)
+public static boolean isFlobbyBird(boolean isRed, boolean isSpotted)
 {
   return isRed && isSpotted;
 }
