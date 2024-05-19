@@ -20,6 +20,6 @@ public double divide(double n, double d)
 }
 public double manhattanDistance(int x1, int x2 , int y1 , int y2)
 {
-  (x2-x1) + (y2-y1);
+  return (x2-x1) + (y2-y1);
 }
 }
