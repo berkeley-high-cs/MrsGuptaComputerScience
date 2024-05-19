@@ -11,5 +11,8 @@ public class Tests {
 
   public double multiply(double a, double b) { return a * b; }
 
-  // Add more methods here ...
+public double divide(double n, double d)
+{
+  return n/d; 
+}
 }
