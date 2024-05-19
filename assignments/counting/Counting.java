@@ -9,11 +9,11 @@ public class Counting {
   public int countLetter(String str1, String str2)
   {
 int counter = 0 ; 
-for (int i = 0 ; i < str1.length(); i++)
+for (int i = 0 ; i <= str1.length(); i++)
 {
   if (str1.substring(i,i+1).equals(str2))
   counter ++;
-  
+
 }
 
 return counter; 
