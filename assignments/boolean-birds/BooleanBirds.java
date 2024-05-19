@@ -19,6 +19,6 @@
 
 public class BooleanBirds {
 
-public boolean isFlobbyBird(boolean isRed, boolean isSpotted);
+public boolean isFlobbyBird(boolean isRed, boolean isSpotted)
 
 }
