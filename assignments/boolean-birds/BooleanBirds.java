@@ -20,5 +20,8 @@
 public class BooleanBirds {
 
 public boolean isFlobbyBird(boolean isRed, boolean isSpotted)
+{
+  return isRed && isSpotted;
+}
 
 }
