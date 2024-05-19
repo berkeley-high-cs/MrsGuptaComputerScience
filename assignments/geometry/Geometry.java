@@ -9,7 +9,7 @@ public class Geometry {
     return side * 4;
   }
 
-public double midpoint(int x1, int x2) 
+public double midpoint(double x1, double x2) 
 {
   return (x1 + x2)/2.0;
 }
