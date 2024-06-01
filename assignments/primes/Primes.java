@@ -15,11 +15,12 @@ public class Primes {
   {
     if (number == 1)
       return false; 
-    for (int i = 2 ; i < number; i++)
-    {
-      
       if (number == 2)
       return true; 
+    for (int i = 3 ; i < number; i++)
+    {
+      
+      
       if( number % i == 0)
       return false; 
     }
