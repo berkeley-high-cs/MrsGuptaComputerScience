@@ -6,7 +6,12 @@
  */
 
 public class Primes {
-  public boolean isPrime(int number)
+  public static void main(String args[])
+  {
+
+    isPriime(2);
+  }
+  public static boolean isPrime(int number)
   {
     for (int i = 2 ; i < number; i++)
     {
