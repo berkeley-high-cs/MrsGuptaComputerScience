@@ -9,7 +9,7 @@ public class Primes {
   public static void main(String args[])
   {
 
-    isPriime(2);
+    isPrime(2);
   }
   public static boolean isPrime(int number)
   {
