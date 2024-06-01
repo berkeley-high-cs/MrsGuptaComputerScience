@@ -13,10 +13,11 @@ public class Primes {
   }
   public static boolean isPrime(int number)
   {
+    if (number == 1)
+      return false; 
     for (int i = 2 ; i < number; i++)
     {
-      if (number == 1)
-      return false; 
+      
       if (number == 2)
       return true; 
       if( number % i == 0)
